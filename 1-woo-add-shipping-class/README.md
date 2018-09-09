@@ -17,7 +17,7 @@
 ![Alt text](screenshot1.png "Display Header Columns and Fields")
 
 
-*STEP 3 - Update the data base with the values set*
+*STEP 3 - Update the database with the values set*
 
 ```
     //loc: woocommerce/includes/class-wc-ajax.php #function to add/update shipping class metas value
@@ -25,7 +25,7 @@
 ```
 
 
-*STEP 4 - Modify shipping class object to add these field before localization*
+*STEP 4 - Modify shipping class object to add these fields data before localization*
 ```
     //loc: woocommerce/includes/class-wc-shipping.php #function to modified localized shipping class data
     apply_filter('woocommerce_get_shipping_classes', $shipping_classes);
