@@ -63,7 +63,7 @@ class Custom_Woo_Shipping_Class_Fields
     public function display_field_view()
     {
         /**
-         * The fields are rendred in the front-end and `data` is a localized variable
+         * The fields are rendered in the client side and `data` is a localized variable
          * You can find it in //loc: woocommerce/assets/js/admin/wc-shipping-classes.js
          * Localization code can be found in //loc: woocommerce/includes/admin/settings/views/html-admin-page-shipping-classes.php
          */
