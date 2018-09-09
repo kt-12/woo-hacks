@@ -99,7 +99,7 @@ class Custom_Woo_Shipping_Class_Fields
      * @param array $data
      * @return void
      */
-    public function address_update($term_id, $data)
+    public function save_field_values($term_id, $data)
     {
         foreach ($data as $key => $value) {
             if (in_array($key, array('fielda', 'fieldb'))) {
