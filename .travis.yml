@@ -54,7 +54,7 @@ before_script:
     fi
 
 script:
-  - cd 1-woo-add-shipping-class
+  - cd "$TRAVIS_BUILD_DIR/1-woo-add-shipping-class"
   - |
     if [[ ! -z "$WP_VERSION" ]] ; then
       phpunit
