@@ -21,7 +21,7 @@
 
 ```
     //loc: woocommerce/includes/class-wc-ajax.php #function to add/update shipping class metas value
-    apply_filter('woocommerce_shipping_classes_save_class', $term_id, $data);
+    do_action('woocommerce_shipping_classes_save_class', $term_id, $data);
 ```
 
 

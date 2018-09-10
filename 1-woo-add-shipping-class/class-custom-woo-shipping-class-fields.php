@@ -28,7 +28,7 @@ class Custom_Woo_Shipping_Class_Fields
          * STEP 3 - Update the data base with the values set
          */
         //loc: woocommerce/includes/class-wc-ajax.php #function to add/update shipping class metas value
-        add_filter('woocommerce_shipping_classes_save_class', array($this, 'save_field_values'), 11, 2);
+        add_action('woocommerce_shipping_classes_save_class', array($this, 'save_field_values'), 11, 2);
 
 
         /**
