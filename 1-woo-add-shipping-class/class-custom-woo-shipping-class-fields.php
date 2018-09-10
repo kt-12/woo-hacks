@@ -75,8 +75,8 @@ class Custom_Woo_Shipping_Class_Fields
         switch ($field) {
             case 'kt-new-field-a':
                 ?>
-					<div class="view">{{ data.fielda }}</div>
-					<div class="edit"><input type="text" name="fielda[{{ data.term_id }}]" data-attribute="fielda" value="{{ data.fielda }}" placeholder="<?php esc_attr_e('Text for Field A', 'kt-12'); ?>" /></div>
+		    <div class="view">{{ data.fielda }}</div>
+		    <div class="edit"><input type="text" name="fielda[{{ data.term_id }}]" data-attribute="fielda" value="{{ data.fielda }}" placeholder="<?php esc_attr_e('Text for Field A', 'kt-12'); ?>" /></div>
                 <?php
              break;
             case 'kt-new-field-b':
