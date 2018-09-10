@@ -118,7 +118,7 @@ class Custom_Woo_Shipping_Class_Fields
      */
     public function modify_shipping_class_object($shipping_class)
     {
-        $classes = [];
+        $classes = array();
         $class_new_fields = array('fielda', 'fieldb');
         foreach ($shipping_class as $key => $class) {
             // convert shipping class object to array
