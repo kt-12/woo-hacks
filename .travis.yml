@@ -36,6 +36,7 @@ matrix:
 
 before_script:
   - export PATH="$HOME/.composer/vendor/bin:$PATH"
+  - cd "$TRAVIS_BUILD_DIR/1-woo-add-shipping-class"
   - |
     if [ -f ~/.phpenv/versions/$(phpenv version-name)/etc/conf.d/xdebug.ini ]; then
       phpenv config-rm xdebug.ini
@@ -54,7 +55,6 @@ before_script:
     fi
 
 script:
-  - cd "$TRAVIS_BUILD_DIR/1-woo-add-shipping-class"
   - |
     if [[ ! -z "$WP_VERSION" ]] ; then
       phpunit
