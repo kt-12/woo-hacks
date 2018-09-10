@@ -19,7 +19,7 @@ class Custom_Woo_Shipping_Class_Fields_Test extends WP_UnitTestCase
         //load all hooks
         $this->CWSC->run();
 
-        // the actual taxanomy is somting else, but the functionality can be tested using any taxanomy
+        // the actual taxanomy is somthing else, but the functionality can be tested using any taxanomy
         $this->shipping_class = $this->factory->term->create(array('taxonomy' => 'category', 'slug' => 'test-class'));
 
     }
