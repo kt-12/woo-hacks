@@ -1,0 +1,3 @@
+[submodule "1-woo-add-shipping-class"]
+	path = 1-woo-add-shipping-class
+	url = https://github.com/woo-hacks/woo-add-shipping-class.git
