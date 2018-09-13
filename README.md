@@ -7,3 +7,6 @@
 
 <h3>1. Adding a custom field to shipping class</h3>
 <small> Only Tested On -> WooCommerce - 3.4, WordPress - 4.9.8 (Probably would work for older configs) </small>
+
+<h3>2. Split product added to cart with multiple quantity to multiple cart items.</h3>
+<small> Only Tested On -> WooCommerce - 3.4, WordPress - 4.9.8 (Probably would work for older configs) </small>

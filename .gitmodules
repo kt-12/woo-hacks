@@ -1,3 +1,6 @@
 [submodule "1-add-custom-fields-to-shipping-class"]
 	path = 1-add-custom-fields-to-shipping-class
 	url = https://github.com/woo-hacks/add-custom-fields-to-shipping-class.git
+[submodule "2-split-multiple-qty-product-on-add-to-cart"]
+	path = 2-split-multiple-qty-product-on-add-to-cart
+	url = https://github.com/woo-hacks/split-multiple-qty-product-on-add-to-cart.git
