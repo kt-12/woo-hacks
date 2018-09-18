@@ -4,3 +4,6 @@
 [submodule "2-split-multiple-qty-product-on-add-to-cart"]
 	path = 2-split-multiple-qty-product-on-add-to-cart
 	url = https://github.com/woo-hacks/split-multiple-qty-product-on-add-to-cart.git
+[submodule "3-split-multiple-qty-order-item-on-checkout"]
+	path = 3-split-multiple-qty-order-item-on-checkout
+	url = https://github.com/woo-hacks/split-multiple-qty-order-item-on-checkout.git
